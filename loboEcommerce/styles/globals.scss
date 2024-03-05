@@ -1,0 +1,50 @@
+/*no global nao é necessario importar para usar com next js*/
+// $red-color: red;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;//Renderização em subpixel gera um melhor resultado em monitores atuais mas pode nao servir pra nada tbm
+  // background: $red-color;
+}
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;//criará uma quebra de linha no ponto exato em que o texto vazaria, mesmo que uma palavra pudesse ser colocada por completo em uma nova linha sem a necessidade de quebra da palavra
+}
+img,
+video,
+canvas,
+svg {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;//indica que ela herdará essa característica do elemento pai.
+}
+ul {
+  list-style: none;//remove o marcador de lista
+  margin: 0;
+  padding: 0;
+}
+button {
+  border: none;
+  outline: none;
+}

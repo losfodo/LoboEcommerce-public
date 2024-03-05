@@ -1,0 +1,13 @@
+{
+  "extends": "next/core-web-vitals" //antes estava assim e dava erro em um import teste
+}
+
+// {
+//   "extends": [
+//     "next"
+//   ]
+// }
+
+// {
+//   "extends": ["next/babel","next/core-web-vitals"]
+// }
